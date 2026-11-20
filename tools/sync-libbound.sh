@@ -7,5 +7,5 @@ here="$(cd "$(dirname "$0")/.." && pwd)"
 src="$here/../LibBound"
 dst="$here/Libs/LibBound"
 rm -rf "$dst"; mkdir -p "$dst"
-for f in LibBound.xml Core.lua Skin.lua Card.lua Options.lua Minimap.lua BuffTimer.lua LICENSE; do cp "$src/$f" "$dst/"; done
+for f in LibBound.xml Core.lua Skin.lua Card.lua Options.lua Minimap.lua Travel.lua BuffTimer.lua LICENSE; do cp "$src/$f" "$dst/"; done
 echo "LibBound synced into $dst"
