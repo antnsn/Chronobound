@@ -43,3 +43,8 @@ python3 tools/make_media.py             # redraws Media/*.tga
 
 Spell and item IDs are Classic's (`Core.lua`, `ns.DATA`); they are checked in game before each
 release.
+
+## License
+
+GPL-3.0-or-later: GNU General Public License, version 3 or (at your option) any later
+version; see [LICENSE](LICENSE). LibBound-1.0 (in `Libs/LibBound`) is MIT, see its own LICENSE.
