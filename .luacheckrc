@@ -5,6 +5,6 @@ max_line_length = false
 ignore = { "212", "432" }
 exclude_files = { "Libs/", "tests/", "tools/" }
 read_globals = {
-	"C_Item", "C_Spell", "C_Timer", "GetCVarBool", "CreateFrame", "GameMenuFrame", "GameTooltip", "GetBindLocation", "HideUIPanel",
+	"C_Item", "C_Spell", "CreateFrame", "GameMenuFrame", "GameTooltip", "GetBindLocation", "HideUIPanel",
 	"InCombatLockdown", "IsPlayerSpell", "LibStub", "RegisterStateDriver", "UIParent", "UnitFactionGroup",
 }

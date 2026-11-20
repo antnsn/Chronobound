@@ -39,7 +39,7 @@ if m == "horde" or m == "combat" then
 	wb.expect("its level", tb.level, 30)
 	wb.expect("portal level", Row("Thunder Bluff", "portal").level, 50)
 	wb.check(not Row("Stormwind", "teleport"), "no Alliance cities for the Horde")
-	wb.check(panel.runes:GetText():find("Teleportation 7"), "rune count")
+	wb.check(panel.footer:GetText():find("Teleportation 7"), "rune count")
 	wb.check(Text(panel.hearth):find("Crossroads"), "hearthstone shows its inn")
 	local b = Button(3567)
 	b.__scripts.PostClick(b, "LeftButton", true) -- the mouse-down phase: the cast hasn't happened
