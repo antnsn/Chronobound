@@ -1,0 +1,18 @@
+## Interface: 16001
+## Title: Chronobound
+## Notes: Mage helper: conjured food and water, Arcane Intellect and armor reminders, Well Rested and Well Fed, a travel panel on the Escape menu. Explained for new players. /cb for options.
+## Author: Rheolux
+## Version: @project-version@
+## IconTexture: Interface\AddOns\Chronobound\Media\Icon64
+## SavedVariables: ChronoboundDB
+
+Libs\LibStub\LibStub.lua
+Libs\LibBound\LibBound.xml
+
+Core.lua
+Skin.lua
+Help.lua
+SelfBuffs.lua
+Conjure.lua
+Travel.lua
+Options.lua
