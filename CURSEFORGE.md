@@ -6,7 +6,7 @@ Mage helper for WoW: Forever: cards when conjured food and water run low or Arca
 
 **The mage helper for World of Warcraft: Forever: food and water, buffs, and every teleport and portal one Escape away.**
 
-Chronobound keeps the mage chores in one place: it tells you when your conjured food and water run low, when Arcane Intellect or your armor is about to drop, and puts your teleports and portals right beside the game menu. Everything is explained in plain words, so it's easy for a new mage and still handy for an old one.
+Chronobound keeps the mage chores in one place: it tells you when your conjured food and water run low, when Arcane Intellect or your armor is about to drop, and puts your teleports and portals right beside the game menu.
 
 **Beta:** Chronobound is new. Spell IDs come from Classic and are checked on Forever before 0.1.0; tell us what doesn't work.
 
