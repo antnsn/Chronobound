@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "Chronobound",
+  "project_id": "26d370b5-5ff9-4305-907a-111b5319fcc6"
+}
