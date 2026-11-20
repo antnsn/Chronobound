@@ -1,3 +1,5 @@
+<p align="center"><img src="Chronobound.png" width="180" alt="Chronobound"></p>
+
 # Chronobound
 
 A mage helper for **WoW: Forever**, part of the Bound family (Lightbound for paladins). Made to
