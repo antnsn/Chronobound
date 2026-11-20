@@ -68,6 +68,7 @@ local frost = {
 		glowEdge = { 0.85, 0.97, 1, 1 },
 		iconEdge = { 0.62, 0.89, 1, 0.9 },
 		frost = "Frost", frostTint = { 0.75, 0.92, 1, 0.10 },
+		crest = "Crest", crestTint = { 0.70, 0.88, 1, 0.16 },
 		shards = "Shard", shardTint = { 0.80, 0.95, 1, 0.95 },
 		rim = "Rim", breathe = true, breatheTime = 2.8,
 		burst = false, studs = false, ring = false, round = false,
