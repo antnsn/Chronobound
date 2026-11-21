@@ -4,6 +4,7 @@
 ## X-License: GPL-3.0-or-later
 ## Author: Rheolux
 ## Version: @project-version@
+## X-Curse-Project-ID: 1820058
 ## IconTexture: Interface\AddOns\Chronobound\Media\Icon64
 ## SavedVariables: ChronoboundDB
 
