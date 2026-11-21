@@ -9,6 +9,7 @@ be easy for someone new to the game, useful for every mage.
   Click the card to conjure more (your best rank). Says so when you can make a better rank.
 - **Buffs**: a card when Arcane Intellect or your armor (Frost Armor, Ice Armor or Mage Armor)
   is missing or about to run out. Click it to cast.
+- **Buff key** (Extras page): out of combat, each press casts the next thing a card asks for, then Arcane Intellect on the next group member in range who is missing it.
 - **Well-Rested and Well Fed**: a countdown before they run out, like Lightbound.
 - **Travel**: press Escape, and beside the game menu you get your teleports and portals (click
   to cast), the ones you will learn later with their level, your rune counts and your Hearthstone.

@@ -1,6 +1,6 @@
 ## Interface: 16001
 ## Title: Chronobound
-## Notes: Mage helper: conjured food and water, Arcane Intellect and armor reminders, Well Rested and Well Fed, a travel panel on the Escape menu. Explained for new players. /cb for options.
+## Notes: Mage helper: conjured food and water, Arcane Intellect and armor reminders, Well Rested and Well Fed, a travel panel on the Escape menu. /cb for options.
 ## X-License: GPL-3.0-or-later
 ## Author: Rheolux
 ## Version: @project-version@
