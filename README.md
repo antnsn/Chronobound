@@ -5,6 +5,8 @@
 A mage helper for **WoW: Forever**, part of the Bound family: one addon per class on the same
 core (Lightbound, Chronobound, Stormbound, Packbound, Spiritbound, Felbound, Dreambound).
 
+Full guide: https://antnsn.github.io/Chronobound/
+
 - **Food and water**: counts your conjured food and water and shows a card when it runs low.
   Click the card to conjure more (your best rank). Says so when you can make a better rank.
 - **Buffs**: a card when Arcane Intellect or your armor (Frost Armor, Ice Armor or Mage Armor)
