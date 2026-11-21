@@ -1,0 +1,48 @@
+title: Chronobound
+description: The mage helper for World of Warcraft Forever. How to use it, page by page.
+url: https://antnsn.github.io
+baseurl: /Chronobound
+
+theme: just-the-docs
+color_scheme: chronobound
+logo: https://raw.githubusercontent.com/antnsn/Chronobound/main/Chronobound.png
+favicon_ico: https://raw.githubusercontent.com/antnsn/Chronobound/main/Chronobound.png
+
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: Back to top
+
+aux_links:
+  CurseForge:
+    - https://www.curseforge.com/wow/addons/chronobound
+  GitHub:
+    - https://github.com/antnsn/Chronobound
+aux_links_new_tab: true
+
+footer_content: Chronobound is a fan-made addon for World of Warcraft Forever. Not affiliated with Blizzard Entertainment.
+
+callouts:
+  note:
+    title: Note
+    color: yellow
+  warning:
+    title: Careful
+    color: red
+  tip:
+    title: Tip
+    color: green
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - superpowers
+
+# every page gets the theme layout (GitHub's own Pages build adds this implicitly; Jekyll 4 does not)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
