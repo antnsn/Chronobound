@@ -2,8 +2,8 @@
 
 # Chronobound
 
-A mage helper for **WoW: Forever**, part of the Bound family (Lightbound for paladins). Made to
-be easy for someone new to the game, useful for every mage.
+A mage helper for **WoW: Forever**, part of the Bound family: one addon per class on the same
+core (Lightbound, Chronobound, Stormbound, Packbound, Spiritbound, Felbound, Dreambound).
 
 - **Food and water**: counts your conjured food and water and shows a card when it runs low.
   Click the card to conjure more (your best rank). Says so when you can make a better rank.
