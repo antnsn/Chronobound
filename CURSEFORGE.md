@@ -1,5 +1,5 @@
 <!-- summary (CurseForge "Summary" field, at most 256 characters):
-Mage helper for WoW: Forever: cards when conjured food and water run low or Arcane Intellect or your armor drops (click to cast), Well Rested and Well Fed timers, and every teleport and portal beside the Escape menu.
+Mage helper for WoW: Forever: one-click cards when conjured food and water run low (best rank) or Arcane Intellect or your armor drops, a note when a better rank is learned, and every teleport and portal beside the Escape menu, with rune counts.
 -->
 
 # Chronobound
