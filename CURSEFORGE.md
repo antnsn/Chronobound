@@ -44,6 +44,7 @@ Chronobound keeps the mage chores in one place: it tells you when your conjured 
 ## Ideas and contributions
 - **Missing something?** New features are added on request: leave a comment here.
 - **Feel free to contribute**: the code is on GitHub, https://github.com/antnsn/Chronobound (issues and pull requests welcome).
+- **Want a Bound addon for another class?** The shared core, LibBound, has a guide and API reference: https://antnsn.github.io/LibBound/
 
 ## The Bound family
 Chronobound is one of the Bound addons, one per class, built on the same core: Lightbound (paladin), Chronobound (mage), Stormbound (shaman), Packbound (hunter), Spiritbound (priest), Felbound (warlock) and Dreambound (druid). They look like their class but work the same way, so if you know one, you know them all.
