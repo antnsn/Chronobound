@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- **Buff key** (set it under Extras): out of combat, each press casts the next thing a card asks for, then Arcane Intellect on the next party member in range who is missing it.
+
 ## 0.1.0 beta 4
 
 - **Minimap button** works with minimap addons (EllesmereUI, SexyMap, ElvUI, MinimapButtonBag, broker bars): it is a LibDBIcon button now. Its place on the minimap is kept.
