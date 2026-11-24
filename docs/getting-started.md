@@ -25,7 +25,7 @@ Pick one:
 {: .warning }
 On GitHub, download `Chronobound-<version>.zip` from Releases, not the green **Code > Download ZIP** button. That one unpacks as `Chronobound-main`, and the game won't load it.
 
-Restart the game (a `/reload` is not enough for a new addon) and log in on your mage. On other classes Chronobound loads nothing and turns itself off for that character from the next login.
+Log in on your mage (if the game is already running, `/reload`). On other classes Chronobound loads nothing and turns itself off for that character from the next login.
 
 ## 2. Open the options
 
