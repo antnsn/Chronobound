@@ -32,8 +32,12 @@ if mood == "combat" then
 	wb.advance(1)
 	wb.expect("carrot on after the fight", s.slots[slot], 11122)
 end
+local slotName = mood == "bottom" and "Bottom" or "Top"
+local riding = wb.ns.CarrotSlotItem(slotName)
 ride(false)
 wb.expect("own trinket back", s.slots[slot], own)
+-- the Extras note names the trinket that goes back, also while the carrot is on
+wb.expect("note while riding", riding, wb.ns.CarrotSlotItem(slotName))
 
 -- the Extras page has the section and still fits in the window
 wb.slash("/cb")
