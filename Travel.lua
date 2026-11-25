@@ -6,14 +6,14 @@ local Bound = LibStub("LibBound-1.0")
 
 local CITIES = {
 	Horde = {
-		{ city = "Orgrimmar", teleport = 3567, tLevel = 20, portal = 11417, pLevel = 40 },
-		{ city = "Undercity", teleport = 3563, tLevel = 20, portal = 11418, pLevel = 40 },
-		{ city = "Thunder Bluff", teleport = 3566, tLevel = 30, portal = 11420, pLevel = 50 },
+		{ city = "Orgrimmar", short = "org", teleport = 3567, tLevel = 20, portal = 11417, pLevel = 40 },
+		{ city = "Undercity", short = "uc", teleport = 3563, tLevel = 20, portal = 11418, pLevel = 40 },
+		{ city = "Thunder Bluff", short = "tb", teleport = 3566, tLevel = 30, portal = 11420, pLevel = 50 },
 	},
 	Alliance = {
-		{ city = "Stormwind", teleport = 3561, tLevel = 20, portal = 10059, pLevel = 40 },
-		{ city = "Ironforge", teleport = 3562, tLevel = 20, portal = 11416, pLevel = 40 },
-		{ city = "Darnassus", teleport = 3565, tLevel = 30, portal = 11419, pLevel = 50 },
+		{ city = "Stormwind", short = "sw", teleport = 3561, tLevel = 20, portal = 10059, pLevel = 40 },
+		{ city = "Ironforge", short = "ironforge", teleport = 3562, tLevel = 20, portal = 11416, pLevel = 40 },
+		{ city = "Darnassus", short = "darn", teleport = 3565, tLevel = 30, portal = 11419, pLevel = 50 },
 	},
 }
 local RUNE_TELEPORT, RUNE_PORTAL = 17031, 17032
@@ -41,6 +41,18 @@ function ns.TravelRows()
 	end
 	return out
 end
+
+-- the faction's portal cities the player has learned ({ "Orgrimmar", ... }) and the rune count:
+-- the portal service (Service.lua) fills {portals} and {runes} from them
+-- short: the words players type instead ({ "org", "uc" }), for {short}
+function ns.KnownPortals(short)
+	local out = {}
+	for _, c in ipairs(CITIES[UnitFactionGroup("player")] or CITIES.Horde) do
+		if Known(c.portal) then out[#out + 1] = short and c.short or c.city end
+	end
+	return out
+end
+function ns.PortalRunes() return Count(RUNE_PORTAL) end
 
 Bound.InstallTravel(ns, {
 	columns = { "TELEPORT", "PORTAL" },

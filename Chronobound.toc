@@ -17,4 +17,5 @@ Help.lua
 SelfBuffs.lua
 Conjure.lua
 Travel.lua
+Service.lua
 Options.lua
