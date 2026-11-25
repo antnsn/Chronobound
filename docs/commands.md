@@ -17,6 +17,12 @@ Everything in Chronobound can be set in the options window (`/cb`). These chat c
 | `/cb` | Opens or closes the options window. `/cb options` and `/cb config` do the same. |
 | `/cb help` | Lists every command in chat. |
 
+## Service
+
+| Command | What it does |
+| --- | --- |
+| `/cb announce` | Posts your service message in Trade. See [Portal service](features/portal-service.html). |
+
 ## Frames
 
 | Command | What it does |

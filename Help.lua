@@ -12,5 +12,6 @@ ns.Help = {
 	teleport = "A teleport takes you to that city in a few seconds. It uses one Rune of Teleportation, sold by reagent vendors.",
 	portal = "A portal opens a gate for you and your group to that city. It uses one Rune of Portals.",
 	hearthstone = "Your Hearthstone takes you back to the inn you set it to. Talk to an innkeeper to change it.",
+	service = "Post your portal offer in Trade with one key press, and hear it when someone asks for a portal. Click [Invite] or [Whisper] in the chat line.",
 	runes = "Runes for teleports and portals are sold by reagent vendors in the big cities.",
 }

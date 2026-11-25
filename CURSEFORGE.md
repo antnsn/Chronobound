@@ -24,6 +24,7 @@ Chronobound keeps the mage chores in one place: it tells you when your conjured 
 - **Press Escape**: beside the game menu you get every teleport and portal you know (click to cast), the ones you'll learn later with their level, your Rune of Teleportation and Rune of Portals counts, and your Hearthstone.
 
 ## Also in it
+- **Portal service**: post your portal offer in Trade with one key press; a sound and [Invite]/[Whisper] in chat when someone asks for a portal.
 - **Buff key** (Extras page): out of combat, each press casts the next thing a card asks for, then Arcane Intellect on the next group member in range who is missing it.
 - **Well Rested and Well Fed**: a countdown before they run out, with a sound if you like.
 - **Carrot on a Stick** (Extras page, off by default): worn while you ride, in the trinket slot you pick; your own trinket goes back on when you get off. Not in instances, and never in combat.

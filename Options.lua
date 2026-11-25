@@ -48,4 +48,5 @@ end
 ns.optionPages[#ns.optionPages + 1] = BuffPage
 ns.optionPages[#ns.optionPages + 1] = ConjurePage
 ns.optionPages[#ns.optionPages + 1] = TravelPage
+ns.optionPages[#ns.optionPages + 1] = ns.ServicePage
 Bound.InstallOptions(ns, { header = "Mage helper", launcher = "Mage helper: food and water, buffs, travel." })
