@@ -19,6 +19,7 @@ Press one key, out of combat, and Chronobound casts the next thing that is neede
   4. **Conjure food.**
 - When no card asks for anything, it casts **Arcane Intellect** on the next party or raid member who is missing it, or whose Arcane Intellect has less than a minute left. Arcane Brilliance counts as having it.
 - It skips players who are offline, dead, not friendly, too far away or out of range.
+- **Lower-level players get the rank they can take.** A buff only goes on someone at most 10 levels below the rank's spell level, so a level 30 gets Arcane Intellect rank 3 at most, not rank 5.
 - When there is nothing left to do, a press says `nothing to buff right now.` in chat.
 - In combat, the key does nothing.
 

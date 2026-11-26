@@ -46,5 +46,6 @@ ns.MakeBuffTimer({
 -- the buff key (LibBound) also gives Arcane Intellect to the group, on the next member in range
 -- missing it (Arcane Brilliance counts)
 ns.groupBuffs[#ns.groupBuffs + 1] = { list = D.intellect,
+	levels = { 1, 14, 28, 42, 56 }, -- each rank's spell level (Classic): the best one a low member can take
 	names = function() return { BuffName(D.intellect, "Arcane Intellect"), BuffName(D.brilliance, "Arcane Brilliance") } end,
 	enabled = function() return ns.db.intellect ~= false end }
