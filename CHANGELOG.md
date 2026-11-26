@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 beta 6
 
 - **Buff key: the right rank for lower-level players**: someone more than 10 levels below a rank gets the best Arcane Intellect they can take.
 - **Portal service** (new page in `/cb`): post your portal offer in Trade with one key press or `/cb announce`, with the portals you know filled in. When someone asks for a portal ("wtb port org", or "uc" in a whisper) you hear it and get a chat line with [Invite] and [Whisper]. Optional auto-whisper reply, off by default.
