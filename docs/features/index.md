@@ -17,4 +17,5 @@ Chronobound does the small mage jobs for you. Each page below covers one of them
 - [Well-Rested and Well Fed](well-rested-and-well-fed.html): a warning and a countdown before they run out.
 - [Explanations](explanations.html): what each card and button means, in its tooltip.
 - [Quality of life](quality-of-life.html): the minimap button, and moving and resizing frames.
+- [Decurse](decurse.html): a grid of your group that lights up when someone has a Curse you can remove.
 - [Skins](skins.html): Frost crystal, classic Blizzard or flat, to match the rest of your UI.

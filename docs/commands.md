@@ -16,6 +16,8 @@ Everything in Chronobound can be set in the options window (`/cb`). These chat c
 | --- | --- |
 | `/cb` | Opens or closes the options window. `/cb options` and `/cb config` do the same. |
 | `/cb help` | Lists every command in chat. |
+| `/cb ignore Debuff Name` | Adds a debuff to the [decurse](features/decurse.html) ignore list, or removes it if it's already there. Not case sensitive. |
+| `/cb ignore` | Lists the ignored debuffs. |
 
 ## Service
 

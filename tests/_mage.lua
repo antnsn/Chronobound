@@ -11,6 +11,7 @@ function M.mage(known)
 		[11417] = "Portal: Orgrimmar", [11418] = "Portal: Undercity", [11420] = "Portal: Thunder Bluff",
 		[3561] = "Teleport: Stormwind", [3562] = "Teleport: Ironforge", [3565] = "Teleport: Darnassus",
 		[10059] = "Portal: Stormwind", [11416] = "Portal: Ironforge", [11419] = "Portal: Darnassus",
+		[475] = "Remove Lesser Curse",
 		[429959] = "Well-Rested",
 	}
 	for _, id in ipairs(known or {}) do s.spells[id] = names[id] end

@@ -6,7 +6,7 @@ wb.slash("/cb")
 wb.check(wb.shown("ChronoboundOptions"), "options open")
 local titles = {}
 for _, p in ipairs(wb.ns.optionsState.pages) do titles[#titles + 1] = p.title end
-wb.expect("pages", table.concat(titles, ", "), "Buffs, Food & water, Travel, Portal service, Extras, Skin")
+wb.expect("pages", table.concat(titles, ", "), "Buffs, Food & water, Decurse, Travel, Portal service, Extras, Skin")
 -- explanations: the card's tooltip carries the plain-word help while explain is on
 local card = wb.frame("ChronoboundWaterFrame")
 card.__scripts.OnEnter(card)
