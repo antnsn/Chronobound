@@ -10,7 +10,7 @@ Chronobound keeps the mage chores in one place: it tells you when your conjured 
 
 **Full guide:** https://antnsn.github.io/Chronobound/
 
-**Beta:** Chronobound is new. Spell IDs come from Classic and are checked on Forever before 0.1.0; tell us what doesn't work.
+Spell IDs come from Classic. If something doesn't work on Forever, tell us on CurseForge or GitHub.
 
 ## Food and water
 - **Counts your conjured food and water** and shows a card when it runs low. Click the card to conjure more, always your best rank.
@@ -57,6 +57,10 @@ Chronobound is one of the Bound addons, one per class, built on the same core: L
 
 ## Changelog
 <!-- changelog:start -->
+### 0.1.0
+
+- The first full release: everything in the betas below. Nothing changed since beta 7.
+
 ### 0.1.0 beta 7
 
 - **Decurse**: a grid of your group (or a list) that shows who has a Curse you can remove. Click a cell for Remove Lesser Curse. It has a key that casts on whoever is under your mouse, in combat too. Set it up on the new Decurse page; `/cb ignore <debuff>` hides one you don't want to see. The same frame as Lightbound's Cleanse.
