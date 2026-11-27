@@ -6,6 +6,7 @@ local Bound = LibStub("LibBound-1.0")
 -- Spells and items, lowest rank first (index i of a spell list makes index i of its item list).
 -- Classic IDs; Forever follows Classic content. Checked in game before each release.
 ns.DATA = {
+	removeCurse = { 475 }, -- Remove Lesser Curse
 	water = { 5504, 5505, 5506, 6127, 10138, 10139, 10140 },
 	waterItems = { 5350, 2288, 2136, 3772, 8077, 8078, 8079 },
 	food = { 587, 597, 990, 6129, 10144, 10145, 28612 },

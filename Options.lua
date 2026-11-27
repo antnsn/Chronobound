@@ -47,6 +47,7 @@ end
 
 ns.optionPages[#ns.optionPages + 1] = BuffPage
 ns.optionPages[#ns.optionPages + 1] = ConjurePage
+if ns.CleansePage then ns.optionPages[#ns.optionPages + 1] = ns.CleansePage end -- Decurse (Decurse.lua)
 ns.optionPages[#ns.optionPages + 1] = TravelPage
 ns.optionPages[#ns.optionPages + 1] = ns.ServicePage
 Bound.InstallOptions(ns, { header = "Mage helper", launcher = "Mage helper: food and water, buffs, travel." })

@@ -20,6 +20,10 @@ Chronobound keeps the mage chores in one place: it tells you when your conjured 
 - **Arcane Intellect and your armor** (Frost Armor, Ice Armor or Mage Armor): a card when one is missing or about to run out. Click it to cast.
 - Choose which armor you keep up, how early to warn, and whether to play a sound.
 
+## Decurse
+- A **grid of your group** that lights up when someone has a Curse you can remove: click for Remove Lesser Curse. Works in combat.
+- A key that casts on whoever is under your mouse, in any raid frame too.
+
 ## Teleports and portals
 - **Press Escape**: beside the game menu you get every teleport and portal you know (click to cast), the ones you'll learn later with their level, your Rune of Teleportation and Rune of Portals counts, and your Hearthstone.
 
