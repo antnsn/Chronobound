@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0
+
+- The first full release: everything in the betas below. Nothing changed since beta 7.
+
 ## 0.1.0 beta 7
 
 - **Decurse**: a grid of your group (or a list) that shows who has a Curse you can remove. Click a cell for Remove Lesser Curse. It has a key that casts on whoever is under your mouse, in combat too. Set it up on the new Decurse page; `/cb ignore <debuff>` hides one you don't want to see. The same frame as Lightbound's Cleanse.

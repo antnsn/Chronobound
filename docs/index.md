@@ -17,7 +17,7 @@ The mage helper for World of Warcraft: Forever.
 ---
 
 {: .note }
-Chronobound is in beta. Its spell IDs come from Classic and are being checked on Forever. If something doesn't work, say so on [CurseForge](https://www.curseforge.com/wow/addons/chronobound) or [GitHub](https://github.com/antnsn/Chronobound/issues).
+Chronobound's spell IDs come from Classic. If something doesn't work on Forever, say so on [CurseForge](https://www.curseforge.com/wow/addons/chronobound) or [GitHub](https://github.com/antnsn/Chronobound/issues).
 
 ## Why Chronobound exists
 
